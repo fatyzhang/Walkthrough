@@ -2,6 +2,7 @@ sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast",
 	"sap/ui/model/json/JSONModel"
+	"sap/ui/model/resource/ResourceModel"
 ], function (Controller, MessageToast, JSONModel, ResourceModle) {
 	"user strict";
 	return Controller.extend("sap.ui.demo.wt.controller.App", {
