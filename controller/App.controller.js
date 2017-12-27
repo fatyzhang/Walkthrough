@@ -22,10 +22,6 @@ sap.ui.define([
 			this.getView().setModel(i18nModel, "i18n";)
 		},
 		onShowHello : function() {
-			// show a native JavaScript alert
-			// alert("Hello World");
-			//MessageToast.show("Hello World");
-			// read message from i18n model
 			var oBundle = this.getView().getModel("i18n").getResourceBundle();
 			var sRecipient = this.getView().getModel().getProperty("/recipient/name");
 			var sMsg = oBundle.getText("helloMsg", [sRecipient]);
